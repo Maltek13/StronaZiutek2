@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color:aquamarine;
+    
+}
+
+h1{
+    background-color: darkblue;
+    text-align:center;
+    width: 1500px;
+    margin: auto;
+    font-size:80px ;
+    border-style:double;
+    border-width: 5px;
+    border-color: #c7a23c;
+    color: azure;
+}
+
+
+#nawigacja{
+text-align:center;
+background-color:cornflowerblue;
+width: 1500px;
+margin: auto;
+font-size:larger ;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 4rem;
+padding-bottom: 4rem;
+
+
+}
+#przyroda{
+    text-align:center;
+    background-color:cornflowerblue;
+    width: 1500px;
+    margin: auto;
+    font-size:larger ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 4rem;
+    border-bottom: 30px solid darkblue;
+    padding-top: 4rem;
+    border-top:30px solid darkblue;
+}
+
+#zabytki{
+   padding-top: 4rem;
+    text-align:center;
+    background-color:cornflowerblue;
+    width: 1500px;
+    margin: auto;
+    font-size:larger ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 4rem;
+}
+
+#strefa{
+    display:flex;
+    justify-content: center;
+    gap: 4rem;
+
+}
+#klim{
+    border-style: double;
+    border-color: #c7a23c;
+    border-width: 5px;
+    width: 750px;
+    height: 500px;
+}
+#zab{
+    border-style: double;
+    border-color:crimson;
+    border-width: 5px;
+    width: 750px;
+    height: 500px;
+    margin: 1rem;
+}
+.pszydzizg{
+    border: 6px solid #c7a23c;
+    border-radius: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 100px;
+    background-color: darkblue;
+    color: azure;
+    font-size: large;
+    
+}
+.pszydzizg:hover{
+    background-color:blue;
+   
+}

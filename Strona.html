@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styl.css">
+    <script src="jawa.js"></script>
+    <title>Gorlice</title>
+</head>
+<body>
+    <h1>Zabytki i Przyroda ziemii Gorlickiej</h1>
+    <div id ="nawigacja">
+      <button type="button" class="pszydzizg" onclick="nawi('#przyroda')">
+        <p>Przyroda</p>
+      </button>
+      <button type="button" class="pszydzizg" onclick="nawi('#strefa')">
+        <p>Strefa Interaktywna</p>
+      </button>
+      <button type="button" class="pszydzizg" onclick="nawi('#zabytki')">
+        <p>Zabytki</p>
+      </button>  
+     </div> 
+    <main>
+        <section id="przyroda">
+          
+          <h2> Przyroda ziemii Gorlickiej jest bardzo piękna. Jest bardzo różnorodna - występuje wiele lasów, łąk i mokradeł. Mamy też rzeki, jeziora i nawet sztuczny zalew.</h2> 
+          <h3> Zalew Klimkówka</h3>
+          <p> <strong>Jezioro Klimkowskie</strong>, znane lepiej jako <strong>Klimkówka</strong>, to sztuczny zalew utworzony na rzecze Ropie w 1994 roku. Cały proces budowy zajął 24 lata. Oprócz bycia świetnym miejscem na wypoczynek,
+           Klimkówka jest także źródłem wody pitnej i przemysłowej dla Jasła i Gorlic. </p> <img id="klim" src="klimkowka.jpg" > <img id="klim" src="klim2.jpg"> <br>
+           <button type="button" class="pszydzizg" onclick="nawi('#nawigacja')"><p>Góra strony</p></button>
+          <h3> Park miejski w Gorlicach</h3>
+          <p> <strong>Park miejski im. Wojciecha Biechońskiego </strong>położony jest w widłach rzek Ropa i Sękówka. Powstał on w roku <strong>1900</strong>, gdy miasto Gorlice wykupiło od wsi Sokół tereny, które przeznaczyło na założenie parku.
+            Obecnie Sokół jest dzielnicą Gorlic, w niej też znajduje się Park. Do Parku prowadzą trzy mosty - jeden drogowy i dwa piesze. Jeden z nich jest okazałym mostem wiszącym.
+          </p>
+          <img id="klim" src="miski.jpg"> <img id="klim" src="most.jpg"> <br>
+          < <button type="button" class="pszydzizg" onclick="nawi('#nawigacja')"><p>Góra strony</p></button>
+          <h3> Magurski Park Narodowy</h3>
+          <p> <strong>Magurski Park Narodowy</strong> powstał 1 stycznia 1995 roku. Obejmuje on tereny na pograniczu województw Małopolskiego i Podkarpackiego, ma powierzchnię 194,39 km kwadratowych. W parku tym występuje ponad 800
+          gatunków roślin i ok. 200 gatunków zwierząt. Rocznie odwiedza go ok. 40 tys. ludzi.</p><img id="klim" src="woda.jpg"> <img id="klim" src ="magur2.jpg"> <br> 
+          <button type="button" class="pszydzizg" onclick="nawi('#nawigacja')"><p>Góra strony</p></button>
+        </section>
+        <section id="zabytki">
+         
+            <h2> Większość Gorlic została zniszczona podczas pierwszej wojny światowej. Z tego powodu w Gorlicach nie zbyt wielu zabytków. Jednak pozostało kilka budynków, na które warto zwrócić uwagę.</h2>
+            <h3> Bazylika mniejsza pod wezwaniem Najświętszej Maryi Panny w Gorlicach. </h3>
+            <p><strong>Bazylika mniejsza pod wezwaniem Najświętszej Maryi Panny w Gorlicach </strong>była budowana w latach 1885 - 1892. Została mocno zniszczona podczas biwty pod Gorlicami w 1915 roku. Odbudowano ją w latach
+            1921 - 1932. W latach 2000 - 2003 przeszła remont. 23 maja 2009 roku papież Benedykt XVI mianował kościół Bazyliką mniejszą. W jednej z bocznych naw znajduje się figura Pana Jezusa w Więzieniu.</p>
+            <img id="zab" src="zew2.jpg"> <img id="zab" src="wew2.jpg"> <br>  <button type="button" class="pszydzizg" onclick="nawi('#nawigacja')"><p>Góra strony</p></button>
+            <h3> Kościół pod wezwaniem Świętych Jakuba i Filipa w Sękowej.</h3>
+            <p><strong>Kościół pod wezwaniem Świętych Jakuba i Filipa w Sękowej</strong> to drewniany kościół, zbudowany na początku XVI wieku (ok. 1520 rok). Został on wpisany na listę światowego dziedzictwa UNESCO
+            Jest on zbudowany w stylu gotyckim sakralnego budownictwa drewnianego. Do 1914 roku był uważany za najpiękniejszy w całej Małopolsce. </p> <img id="zab" src="zsek.jpg"> <img id="zab" src="wsek2.jpg"> <br>
+            <button type="button" class="pszydzizg" onclick="nawi('#nawigacja')"><p>Góra strony</p></button>
+            <h3> Ratusz Gorlicki. </h3>
+            <p><strong>Gorlicki ratusz</strong> został oryginalnie zbudowany w roku 1790. W latach 1948 - 1950 został on rozbudowany, gdzyż nie był wystarczająco okazały. W XIX wieku w ratuszu mieściła się apteka, którą
+            prowadził Ignacy Łukasiewicz. W roku 2023 zakończony został remont ratusza.</p> <img id="zab" src="ratusz.jpg"> <img id="zab" src="ratusz2.jpg"> <br>  
+            <button type="button" class="pszydzizg" onclick="nawi('#nawigacja')"><p>Góra strony</p></button>
+        </section>
+    </main>
+  <footer id="strefa">
+  <audio src="muzyka.mp3" controls preload ="auto" >
+    
+  </audio>  
+  <input id="kolor" type="color" onchange="zmiana()"/>
+ 
+  </footer>
+</body>
+</html>
