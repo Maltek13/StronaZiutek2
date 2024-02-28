@@ -12,11 +12,11 @@ const canvasPage = {
                     <div style="justify-content: space-between; display: flex; gap: 2rem;">
                         <div class="controls-item">
                             <label for="canvas-background-color-picker">Tło</label>
-                            <input type="color" id="canvas-background-color-picker" value="#FCFCFC">
+                            <input class="konewka" type="color" id="canvas-background-color-picker" value="#FCFCFC">
                         </div>
                         <div class="controls-item">
                             <label for="canvas-color-picker">Pędzel</label>
-                            <input type="color" id="canvas-color-picker" value="#000000" >
+                            <input class="konewka" type="color" id="canvas-color-picker" value="#000000" >
                         </div>
                     </div>
                     <div class="controls-item">
