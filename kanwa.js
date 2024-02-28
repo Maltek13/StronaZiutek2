@@ -4,7 +4,7 @@ const canvasPage = {
         <div class="middle">
             <div class="landing">
                 <h1>Canvas</h1>
-                <p>Narysuj coś na płótnie!</p>
+                <p>Narysuj swój ulubiony zabytek!</p>
             </div>
             <div class="center">
                 <canvas id="canvas" width="800" height="600" style="border: 1px solid var(--gray-6); margin-top: 1rem; background-color: #FCFCFC; border-radius: 5px; cursor: crosshair;"></canvas>
