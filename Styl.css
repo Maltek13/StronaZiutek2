@@ -94,6 +94,9 @@ padding-bottom: 4rem;
 .link:hover{
     color:white;
 }
+.kolor{
+    border-width:2px;
+}
 .konewka {
     -webkit-appearance: none;
     -moz-appearance: none;
