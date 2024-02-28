@@ -92,7 +92,7 @@ padding-bottom: 4rem;
    
 }
 .link:hover{
-    color:white
+    color:white;
 }
 input[type="color"] {
     -webkit-appearance: none;
