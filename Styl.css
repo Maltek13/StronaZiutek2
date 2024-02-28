@@ -105,12 +105,12 @@ input[type="color"] {
     cursor: pointer;
 }
 
-input[type="color"]::-webkit-color-swatch {
+.konewka::-webkit-color-swatch {
     border-radius: 15px;
     border: 1px solid var(--gray-6);
 }
 
-input[type="color"]::-moz-color-swatch {
+.konewka::-moz-color-swatch {
     border-radius: 15px;
     border: 1px solid var(--gray-6);
 }
