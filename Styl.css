@@ -91,6 +91,9 @@ padding-bottom: 4rem;
     background-color:blue;
    
 }
+.link:hover{
+    color:white
+}
 input[type="color"] {
     -webkit-appearance: none;
     -moz-appearance: none;
