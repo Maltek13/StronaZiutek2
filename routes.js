@@ -1,1 +1,1 @@
-const routes = [kanwaPage];
+const routes = [kanwa];
