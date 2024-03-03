@@ -118,3 +118,8 @@ padding-bottom: 4rem;
     gap: 20px;
     justify-content: center;
 }
+.controls-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
