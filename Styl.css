@@ -59,7 +59,9 @@ padding-bottom: 4rem;
     display:flex;
     justify-content: center;
     gap: 4rem;
-
+    width:1500px;
+    background-color:cornflowerblue;
+    margin:auto;
 }
 #klim{
     border-style: double;
@@ -94,46 +96,25 @@ padding-bottom: 4rem;
 .link:hover{
     color:white;
 }
-.kolor{
-    border-width:2px;
-}
-.konewka {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: 3rem;
-    height: 3rem;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+#kolor{
+    border-width:1px;
+    border-color: aqua;
+    width: 100px;
+    height: 50px;
 }
 
-.konewka::-webkit-color-swatch {
-    border-radius: 15px;
-    border: 1px solid var(--gray-6);
+#canvas{
+    background-color: azure;
 }
-
-.konewka::-moz-color-swatch {
-    border-radius: 15px;
-    border: 1px solid var(--gray-6);
-}
-
-.controls-item {
+#podpis{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#clear-canvas {
-    background-color: var(--gray-2);
-    border: 1px solid var(--gray-6);
-    border-radius: 0.25em;
-    padding: 0.75em 1.5em;
-    font-size: 1rem;
-    color: var(--gray-12);
-    cursor: pointer;
-}
-
-#clear-canvas:hover {
-    background-color: var(--gray-3);
+    flex-flow: row;
+    width: 1500px;
+    text-align: center;
+    font-size:larger ;
+    background-color:cornflowerblue ;
+    gap: 20px;
+    justify-content: center;
 }
